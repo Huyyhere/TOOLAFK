@@ -45,7 +45,7 @@ _G.Sword = {
     ["Saddi"] = true,
     ["Wando"] = true,
     ["Yama"] = true,
-    ["Koko"] = true,
+    ["Koko"] = false,
     ["Rengoku"] = true,
     ["Canvander"] = true,
     ["Buddy Sword"] = true,
@@ -80,23 +80,9 @@ _G.Gun = {
 }
 
 _G.Fruit = {
-    ["Main Fruit"] = {"T-Rex-T-Rex","Kitsune-Kitsune","Tiger-Tiger","Yeti-Yeti","Control-Control","Gas-Gas","Venom-Venom","Gravity-Gravity"},
-    ["Select Fruit"] = {
-        "Flame-Flame",
-        "Ice-Ice",
-        "Sand-Sand",
-        "Dark-Dark",
-        "Light-Light",
-        "Magma-Magma",
-        "Quake-Quake",
-        "Buddha-Buddha",
-        "Spider-Spider",
-        "Phoenix-Phoenix",
-        "Dough-Dough",
-        "Lightning-Lightning"
-    },
-    ["Auto Store Fruit"] = true,
-    ["Auto Awaken"] = true
+    ["Main Fruit"] = {"Kitsune-Kitsune","T-Rex-T-Rex","Mammoth-Mammoth"},
+    ["Select Fruit"] = {"Dark-Dark","Magma-Magma"},
+    ["Auto Store Fruit"] = true
 }
 
 _G.Mastery = {
