@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 def _clear():
     os.system("cls" if os.name == "nt" else "clear")
 
-BOT_TOKEN = getpass("Nhập token bot: ").strip()
+BOT_TOKEN = getpass("Nhập token bot Discord: ").strip()
 _clear()
 print("Token đã nhận. Đang khởi động bot...")
 
